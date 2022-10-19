@@ -22,7 +22,7 @@ The respective courses are being taken:
 	 - Applied Accessibility :ballot_box_with_check:
 	 - Responsive Web Design Principles :ballot_box_with_check:
 	 - CSS Flexbox :ballot_box_with_check:
-	 - CSS Grid
+	 - CSS Grid :ballot_box_with_check:
 	 - Responsive Web Design Projects
 
 ---
