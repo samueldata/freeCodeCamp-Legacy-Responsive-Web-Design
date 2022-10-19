@@ -16,12 +16,12 @@ Each module contains lessons separated by files. In these files of each folder, 
 The respective courses are being taken:
 
  - Legacy Responsive Web Design (300 hours)
-	 - Basic HTML and HTML5
-	 - Basic CSS
-	 - Applied Visual Design
-	 - Applied Accessibility
-	 - Responsive Web Design Principles
-	 - CSS Flexbox
+	 - Basic HTML and HTML5 :ballot_box_with_check:
+	 - Basic CSS  :ballot_box_with_check:
+	 - Applied Visual Design :ballot_box_with_check:
+	 - Applied Accessibility :ballot_box_with_check:
+	 - Responsive Web Design Principles :ballot_box_with_check:
+	 - CSS Flexbox :ballot_box_with_check:
 	 - CSS Grid
 	 - Responsive Web Design Projects
 
