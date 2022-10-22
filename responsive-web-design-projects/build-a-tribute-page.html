@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">html {
+    /* Setting a base font size of 10px give us easier rem calculations
+         Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+       */
+    font-size: 10px;
+  }
+  
+  body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 460px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a {
+    color: #477ca7;
+  }
+  
+  a:visited {
+    color: #74638f;
+  }
+  
+  #main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+  }
+  
+  @media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  #img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+  }
+  
+  @media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+  }
+  
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  
+  blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+  }
+</style>
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Dr. Oswaldo Cruz</h1>
+      <p>The trajectory of a doctor dedicated to science</p>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="./src/imagem_laboratorio_oswaldo.jpg"
+          alt="Dr. Oswaldo Cruz working in your laboratory"
+        />
+        <figcaption id="img-caption">
+            Oswaldo Cruz in front looking through a microscope with two other students in his laboratory at Fiocruz in Rio de Janeiro
+        </figcaption>
+      </figure>
+      <section id="tribute-info">
+        <h3 id="headline">Here's a time line of Dr. Oswaldo's life:</h3>
+        <ul>
+          <li><strong>August 5, 1872</strong> - Born in São Luís do Paraitinga, São Paulo, Empire of Brazil</li>
+          <li>
+            <strong>1877</strong> - As a child, he moved to Rio de Janeiro with his family.
+          </li>
+          <li>
+            <strong>1887</strong> - At the age of 15 he started to study at the Faculty of Medicine of Rio de Janeiro
+          </li>
+          <li>
+            <strong>1892</strong> - He graduated as a medical doctor, with a thesis on water as vehicle for the propagation of microbes. Inspired by the work of Louis Pasteur, who had developed the germ theory of disease, four years later h
+          </li>
+          <li>
+            <strong>1896</strong> - He went to Paris to specialize in bacteriology at the Pasteur Institute, which gathered the great names of this branch of science of that time. He was financed by his father-in-law, a wealthy Portuguese merchant.
+          </li>
+          <li>
+            <strong>May 25, 1900</strong> - The Federal Serum Therapy Institute was created, intended for the production of sera and vaccines against the bubonic plague, with Baron Pedro Afonso as director general and the young bacteriologist Oswaldo Cruz as technical director. The new institute was established in the old farm of Manguinhos at the western shores of Guanabara Bay. In 1902, Cruz accepted the office of director general of the institute and soon expanded the scope of its activities, now no longer restricted to the production of sera but also dedicated to basic and applied research and to the building of human resources. In the following year, Cruz was appointed director general of Public Health, a position corresponding to today's Brazilian Minister of Health
+          </li>
+          <li>
+            <strong>1907</strong> - On occasion of the 14th International Congress on Hygiene and Demography in Berlin, Cruz was awarded with the gold medal in recognition of the sanitation of Rio de Janeiro.
+          </li>
+          <li>
+            <strong>1909</strong> - He retired from the position as director general for Public Health, dedicating himself exclusively to the Manguinhos Institute, which has been named after him. From the institute he organized important scientific expeditions, which allowed a better knowledge about the health and life conditions in the interior of the country and contributed to the colonization of regions. Cruz eradicated urban yellow fever in the state of Pará. His sanitation campaign in the state of Amazonas allowed the completion of construction of the Madeira-Mamoré railroad, which had been interrupted due to the great number of deaths from malaria and yellow fever among the workers.
+          </li>
+          <li>
+            <strong>1913</strong> - Cruz was elected a member of the Brazilian Academy of Arts and Letters. In 1915, due to health problems, he resigned from the directorship of the Oswaldo Cruz Institute and moved to Petrópolis, a small city in the mountains near Rio. On August 18, 1916, he was elected mayor of that city and outlined an extensive urbanization project he would not see implemented.
+
+          <li>
+            <strong>1917</strong> - As a consequence of the short, fruitful life of Dr. Oswaldo Cruz, an extremely important scientific and health institution was born, which marked the beginning of experimental medicine in Brazil in many areas. To this day it exerts a strong influence on Brazilian science, technology and public health.
+          </li>
+          <li><strong>February 11, 1917</strong> - Dies at the age of 44 in Petrópolis, Rio de Janeiro, Brazil.</li>
+        </ul>
+        <blockquote
+          cite="https://en.wikipedia.org/wiki/Oswaldo_Cruz"
+        >
+          <p>
+            "Pelos erros dos outros, o homem sensato corrige os seu."
+            <br>
+            <br>
+            "Sem esmorecer para não desmerecer."
+          </p>
+          <cite>-- Cruz's phrases in Portuguese</cite>
+        </blockquote>
+        <h3>
+          If you have time, you should read more about this incredible human
+          being on his
+          <a
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Oswaldo_Cruz"
+            target="_blank"
+            >Wikipedia entry</a
+          >.
+        </h3>
+      </section>
+    </main>
+  </body>
+</html>
