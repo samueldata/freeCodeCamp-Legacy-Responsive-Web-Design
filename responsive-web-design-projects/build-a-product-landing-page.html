@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity=""
+        crossorigin="anonymous" />
 </head>
+
 <body>
-    
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img src="src/img/logo.png" alt="microgreen logo" />
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#Features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container"></div>
+
+        <section id="hero">
+            <h2>Small in size, giant in benefits.</h2>
+            <form id="form" action="email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your mail address" required />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"> <i class="fa fa-3x fa-leaf"></i></div>
+                    <div class="desc">
+                        <h2>Raw food</h2>
+                        <p>
+                            Over the past decade, microgreens gained popularity among the upscale market. Whether it's
+                            used for plate dressing or as secondary ingredients, microgreens are known to pack a punch
+                            of nutrient, as well as flavor to enhance the dishes.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-harvest"></i></div>
+                    <div class="desc">
+                        <h2>Fast harvest</h2>
+                        <p>
+                            It's an average time for most microgreens. Some can be harvested as fast as day 7th, while
+                            the others can take up to 12 days. For example, in a study of buckwheat microgreens, it is
+                            found to contain the highest concentration of beneficial phenols on day-6th and gradually
+                            decreased as it grew
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-health" aria-hidden="true"></i></div>
+                    <div class="desc">
+                        <h2>Nutrition Fact and Health Benefit</h2>
+                        <p>
+                            By comparing to USDA National Nutrient Databases, microgreens showed a higher level (up to
+                            69 times) of nutrients than its mature counterpart. For instance, the red cabbage
+                            microgreens have 40x more vitamin E, 6x more vitamin C and 69x more vitamin K than the
+                            mature red cabbage
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe width="692" height="389" src="https://www.youtube.com/embed/DKZQkyKPCaE"
+                    title="My Microgreen Garden 1 Minute Micro Lesson" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="starter">
+                    <div class="level">Starter</div>
+                    <h2>$20</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="enterprise">
+                    <div class="level">Enterprise</div>
+                    <h2>$100</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="professional">
+                    <div class="level">Professional</div>
+                    <h2>$50s0</h2>
+                    <ol>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum.</li>
+                        <li>Lorem ipsum dolor.</li>
+                        <li>Lorem ipsum.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2022, Microgreens</span>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
