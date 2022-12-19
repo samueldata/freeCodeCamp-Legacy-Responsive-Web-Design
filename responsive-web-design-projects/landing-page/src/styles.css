@@ -44,6 +44,7 @@ a {
   border-radius: 2px;
   background: transparent;
   cursor: pointer;
+  background-color: #8BBC42;
 }
 
 .grid {
@@ -155,11 +156,11 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #8BBC42;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: #4b6821;
   transition: background-color 1s;
 }
 
@@ -179,7 +180,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: #8BBC42;
 }
 
 @media (max-width: 550px) {
